@@ -26,7 +26,7 @@ class Logger {
   /// SHOUT: 2021-09-13 15:35:10.708087: Unexpected negative n: -42
   /// Fibonacci(-42) is: 1
 
-  void log() {
+  void demo() {
     logging.Logger.root.level = logging.Level.ALL; // defaults to Level.INFO
     logging.Logger.root.onRecord.listen((record) {
       debugPrint('${record.level.name}: ${record.time}: ${record.message}');

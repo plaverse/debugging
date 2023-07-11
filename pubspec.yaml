@@ -69,6 +69,7 @@ dependencies:
 
   #logging
   logging: ^1.2.0
+  logger: ^1.4.0
 
   #network
   dio: ^5.0.0
