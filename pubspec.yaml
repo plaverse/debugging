@@ -67,6 +67,9 @@ dependencies:
   #ui - util
   keyboard_utils_fork: ^0.0.4
 
+  #logging
+  logging: ^1.2.0
+
   #network
   dio: ^5.0.0
   retrofit: ^4.0.1
