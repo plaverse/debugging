@@ -2,7 +2,7 @@ import 'package:logger/logger.dart' as logger;
 
 class Logger {
   final _log = logger.Logger(
-    printer: logger.PrettyPrinter(),
+    printer: logger.PrettyPrinter(errorMethodCount: 10),
   );
 
   final _loggerNoStack = logger.Logger(
